@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.quiz.quiz.Akt_pytanie"/>
+      <point      
+        x = "1968"      
+        y = "640"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.quiz.quiz.QuestionActivity"/>
+      <point      
+        x = "650"      
+        y = "250"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.quiz.quiz.Akt_trening"/>
+      <point      
+        x = "600"      
+        y = "200"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.quiz.quiz.MainActivity"/>
+      <point      
+        x = "996"      
+        y = "148"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.quiz.quiz.Akt_bluetooth"/>
+      <point      
+        x = "700"      
+        y = "300"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

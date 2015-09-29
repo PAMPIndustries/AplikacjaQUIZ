@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:backgroundTintMode="screen"
+    android:background="@drawable/ngone___camopattern_02_cc0_by_black_light_studio_d68hm48">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GRAJ"
+        android:id="@+id/button1"
+        android:background="@android:color/background_dark"
+        android:backgroundTintMode="screen"
+        android:textColor="#ffffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp"
+        android:onClick="onClick"
+        android:textSize="16dp"
+        android:layout_above="@+id/button3" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ZAKOŃCZ"
+        android:id="@+id/button3"
+        android:background="@android:color/background_dark"
+        android:backgroundTintMode="screen"
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="16dp"
+        android:nestedScrollingEnabled="false"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:layout_width="900dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/watoquiz"
+        android:scaleType="fitXY"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="@dimen/abc_search_view_preferred_width"
+        android:longClickable="false"
+        style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp" />
+
+</RelativeLayout>
